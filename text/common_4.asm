@@ -317,7 +317,7 @@ UnknownText_0x1c474b:: ; 0x1c474b
 	prompt
 ; 0x1c475f
 
-UnknownText_0x1c475f: ; 0x1c475f
+_SeerIntroText: ; 0x1c475f
 	text "I see all."
 	line "I know all…"
 
@@ -326,7 +326,7 @@ UnknownText_0x1c475f: ; 0x1c475f
 	done
 ; 0x1c4797
 
-UnknownText_0x1c4797: ; 0x1c4797
+_SeerCantTellText: ; 0x1c4797
 	text "Whaaaat? I can't"
 	line "tell a thing!"
 
@@ -335,7 +335,7 @@ UnknownText_0x1c4797: ; 0x1c4797
 	done
 ; 0x1c47d4
 
-UnknownText_0x1c47d4: ; 0x1c47d4
+_SeerMetAtText: ; 0x1c47d4
 	text "Hm… I see you met"
 	line "@"
 	text_from_ram wd003
@@ -346,7 +346,7 @@ UnknownText_0x1c47d4: ; 0x1c47d4
 	prompt
 ; 0x1c47fa
 
-UnknownText_0x1c47fa: ; 0x1c47fa
+_SeerTimeLevelText: ; 0x1c47fa
 	text "The time was"
 	line "@"
 	text_from_ram wd01f
@@ -360,7 +360,7 @@ UnknownText_0x1c47fa: ; 0x1c47fa
 	prompt
 ; 0x1c4837
 
-UnknownText_0x1c4837: ; 0x1c4837
+_SeerTradedText: ; 0x1c4837
 	text "Hm… @"
 	text_from_ram wd003
 	text ""
@@ -381,7 +381,7 @@ UnknownText_0x1c4837: ; 0x1c4837
 	prompt
 ; 0x1c487f
 
-UnknownText_0x1c487f: ; 0x1c487f
+_SeerLevelOnlyText: ; 0x1c487f
 	text "What!? Incredible!"
 
 	para "I don't understand"
@@ -400,7 +400,7 @@ UnknownText_0x1c487f: ; 0x1c487f
 	prompt
 ; 0x1c491d
 
-UnknownText_0x1c491d: ; 0x1c491d
+_SeerEggText: ; 0x1c491d
 	text "Hey!"
 
 	para "That's an EGG!"
@@ -410,13 +410,13 @@ UnknownText_0x1c491d: ; 0x1c491d
 	done
 ; 0x1c4955
 
-UnknownText_0x1c4955: ; 0x1c4955
+_SeerCancelText: ; 0x1c4955
 	text "Fufufu! I saw that"
 	line "you'd do nothing!"
 	done
 ; 0x1c497a
 
-UnknownText_0x1c497a: ; 0x1c497a
+_SeerAdvice1: ; 0x1c497a
 	text "Incidentally…"
 
 	para "It would be wise"
@@ -427,7 +427,7 @@ UnknownText_0x1c497a: ; 0x1c497a
 	done
 ; 0x1c49c6
 
-UnknownText_0x1c49c6: ; 0x1c49c6
+_SeerAdvice2: ; 0x1c49c6
 	text "Incidentally…"
 
 	para "It seems to have"
@@ -441,7 +441,7 @@ UnknownText_0x1c49c6: ; 0x1c49c6
 	done
 ; 0x1c4a21
 
-UnknownText_0x1c4a21: ; 0x1c4a21
+_SeerAdvice3: ; 0x1c4a21
 	text "Incidentally…"
 
 	para "@"
@@ -452,7 +452,7 @@ UnknownText_0x1c4a21: ; 0x1c4a21
 	done
 ; 0x1c4a5b
 
-UnknownText_0x1c4a5b: ; 0x1c4a5b
+_SeerAdvice4: ; 0x1c4a5b
 	text "Incidentally…"
 
 	para "It certainly has"
@@ -471,7 +471,7 @@ UnknownText_0x1c4a5b: ; 0x1c4a5b
 	done
 ; 0x1c4ae5
 
-UnknownText_0x1c4ae5: ; 0x1c4ae5
+_SeerAdvice5: ; 0x1c4ae5
 	text "Incidentally…"
 
 	para "I'm impressed by"

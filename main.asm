@@ -48317,6 +48317,30 @@ INCLUDE "misc/gbc_only.asm"
 
 INCLUDE "event/poke_seer.asm"
 
+GetCaughtGender: ; 4f301
+	ld hl, PartyMon1CaughtGender - PartyMon1
+	add hl, bc
+
+	ld a, [hl]
+	and $7f
+	jr z, .genderless
+	cp $7f
+	jr z, .genderless
+
+	ld a, [hl]
+	and $80
+	jr nz, .male
+	ld c, 1
+	ret
+
+.male
+	ld c, 2
+	ret
+
+.genderless
+	ld c, 0
+	ret
+; 4f31c
 
 SECTION "bank14", ROMX, BANK[$14]
 
